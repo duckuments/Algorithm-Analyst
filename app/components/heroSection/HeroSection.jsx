@@ -1,6 +1,3 @@
-import { Button } from '@/components/ui/button'
-
-
 const HeroSection = () => {
   return (
     <div className="p-10 text-center">
@@ -9,8 +6,8 @@ const HeroSection = () => {
         <p className="font-medium text-lg mt-10 text-gray-500">Analyze your code’s efficiency with detailed runtime and memory usage metrics. Instantly see how your input performs, helping you optimize and write faster, leaner programs.</p>
       </article>
       <div className='flex gap-5 justify-center items-center'>
-        <Button size="lg">Buy me a coffee</Button>
-        <Button size="lg" variant="outline">Github</Button>
+        <button className="btn btn-primary bg-yellow-500 text-black btn-lg">Buy me a coffee</button>
+        <button className="btn btn-outline btn-lg">Github</button>
       </div>
     </div>
   )
